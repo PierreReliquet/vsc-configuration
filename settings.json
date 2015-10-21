@@ -1,0 +1,18 @@
+// Place your settings in this file to overwrite the default settings
+{
+	"jshint.enable": true,
+	"search.exclude": {
+		"**/node_modules": true,
+		"**/dist": true,
+		"**/junit": true,
+		"**/.sass-cache": true,
+		"**/.tmp": true,
+		"**/bower_components": true
+	},
+	"editor.insertSpaces": true,
+    "editor.formatOnType": true,
+    "window.reopenFolders": "none",
+    "files.trimTrailingWhitespace": true,
+    "editor.tabSize": 2,
+    "git.autofetch": false
+}
