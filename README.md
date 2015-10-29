@@ -6,3 +6,5 @@ These files are made for OSX since it overrides some shortcuts is overriden.
 
 For example the `editor.action.format`' shortcut `alt+shift+F` is overriden with `shift+cmd+f` to avoid
 conflicts with the international qwerty keyboard.
+
+The current files go into `/Users/$(whoami)/Library/Application Support/Code/User`
