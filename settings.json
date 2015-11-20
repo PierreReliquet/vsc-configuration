@@ -11,9 +11,27 @@
     "**/coverage": true
 	},
 	"editor.insertSpaces": true,
-    "editor.formatOnType": true,
-    "window.reopenFolders": "none",
-    "files.trimTrailingWhitespace": true,
-    "editor.tabSize": 2,
-    "git.autofetch": false
+  "editor.formatOnType": true,
+  "editor.renderWhitespace": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "window.reopenFolders": "none",
+  "files.trimTrailingWhitespace": true,
+  "editor.tabSize": 2,
+  "git.autofetch": false,
+
+  // Validation
+  "javascript.validate.lint.comparisonOperatorsNotStrict": "error",
+  "javascript.validate.lint.redeclaredVariables": "error",
+
+  "css.lint.idSelector": "warning",
+  "css.lint.float": "warning",
+  "css.lint.important": "warning",
+
+  "less.lint.idSelector": "warning",
+  "less.lint.float": "warning",
+  "less.lint.important": "warning",
+
+  "sass.lint.idSelector": "warning",
+  "sass.lint.float": "warning",
+  "sass.lint.important": "warning"
 }
